@@ -1,8 +1,9 @@
-const input = document.getElementById('name-input');
-const output = document.getElementById('name-output');
-
-input.addEventListener('input', handleInputChange);
-
-function handleInputChange(event) {
-    output.textContent = event.currentTarget.value;
+let counterValue = 0;
+function increment(){
+	counterValue +=1;
+  document.getElementById('value').innerHTML = counterValue;
+}
+function decrement(){
+	counterValue -=1;
+  document.getElementById('value').innerHTML = counterValue;
 }
