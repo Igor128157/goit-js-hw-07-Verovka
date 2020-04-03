@@ -1,3 +1,5 @@
+'use strict';
+
 let counterValue = 0;
 function increment(){
 	counterValue +=1;
